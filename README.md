@@ -159,6 +159,7 @@ Be aware that async code reviews can have an impact on team's Lead Time: [Async 
   - Average number of bugs found per line of code.
 
 ## Concrete Practice - Code Avengers 30'
+### Iteration 1
 - Create groups of 3
 ### Iteration 1
 #### Preparation
