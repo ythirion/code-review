@@ -3,6 +3,7 @@
 - In solo, describe what are your objectives when you review peer’s code?
   - How do you do it?
   - What do you look for?
+- What makes a successful code review?
 - Share in pair then in groups of 4
 
 ![Goals](img/goals.png)
@@ -132,12 +133,12 @@ The reviewer checks the code and, if everything is OK : the code is merged into 
   - [ ] Pass internal automatic quality gates
 - [ ] **Operability**
   - [ ] Logging give context for debugging
-  - [ ] Configuration is separated from the code
+  - [ ] Configuration separated from the code
 - [ ] Is the code **readable**
   - [ ] Names covey **intent**
   - [ ] APIs are documented
 - [ ] Is the code **SOLID** ?
-  - [ ] Team **conventions** are followed
+  - [ ] Team **conventions** followed
   - [ ] There is **no obsolete code**/function
   - [ ] There is **no commented out code** or TODOs
   - [ ] Use of design patterns when appropriate (modularity, simplicity,...)
@@ -150,19 +151,30 @@ The reviewer checks the code and, if everything is OK : the code is merged into 
 Be aware that async code reviews can have an impact on team's Lead Time: [Async Code Reviews Are Killing Your Company’s Throughput](https://www.slideshare.net/kobac/async-code-reviews-are-killing-your-companys-throughput-248758692)
 
 ## Concrete Practice - Code Avengers 30'
+### Iteration 1
 - Create groups of 3
 - Each attendee takes :
   - A role card and **keep it secret**
   - A checklist
   - A code sample
-- 5’ in solo:
+- `10’ in solo`:
   - Prepare a code review as a code avenger : role-play based on your role card.
-- Review time :
+- Review time : `5' each`
   - Each member explains his/her discovery in the code to the two others.
-  - They have to guess who is the code avenger
-    - And keep note how they feel during the review
+  - The others keep note how they feel during the review
+- At the end, attendees have to guess who is which code avenger
 
-### Role play cards
+<details>
+  <summary markdown='span'>
+  Role play cards (do not reveal)
+  </summary>
+
+![Code avengers](img/code-avengers.png)
+
+- [PDF printable version](files/code-avengers.pdf)
+- [PNG cards](files/code-avengers.zip)
+
+</details>
 
 
 ### Resources
