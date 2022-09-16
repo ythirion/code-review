@@ -1,4 +1,6 @@
 # Code Review
+![Avengers code review](img/code-review-avengers.jpg)
+
 - [Connection - Goals](1.connection.md)
 - [Concepts - What is `Code Review`](2.concepts.md)
 - [Concrete Practice - Code Avengers](3.concrete-practice.md)
