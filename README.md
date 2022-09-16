@@ -3,6 +3,7 @@
 - In solo, describe what are your objectives when you review peer’s code?
   - How do you do it?
   - What do you look for?
+- What makes a successful code review?
 - Share in pair then in groups of 4
 
 ![Goals](img/goals.png)
@@ -21,9 +22,8 @@ It is an improvement quality tool that comes at cost.
 - Small batches
   - `No more than 200 to 400 lines of code` (LOC) at a time
   - Brain cannot process and detect errors if too much data
-- At least two developers sitting together
-  - Junior Dev should pair with a more experienced one
-  - Whole team when the feature is risky or complex
+- Mindset
+> Do you want my blessing or my feedback ?
 
 ### Who ?
 - Everyone's code can be reviewed
@@ -132,12 +132,12 @@ The reviewer checks the code and, if everything is OK : the code is merged into 
   - [ ] Pass internal automatic quality gates
 - [ ] **Operability**
   - [ ] Logging give context for debugging
-  - [ ] Configuration is separated from the code
+  - [ ] Configuration separated from the code
 - [ ] Is the code **readable**
   - [ ] Names covey **intent**
   - [ ] APIs are documented
 - [ ] Is the code **SOLID** ?
-  - [ ] Team **conventions** are followed
+  - [ ] Team **conventions** followed
   - [ ] There is **no obsolete code**/function
   - [ ] There is **no commented out code** or TODOs
   - [ ] Use of design patterns when appropriate (modularity, simplicity,...)
@@ -149,27 +149,81 @@ The reviewer checks the code and, if everything is OK : the code is merged into 
 
 Be aware that async code reviews can have an impact on team's Lead Time: [Async Code Reviews Are Killing Your Company’s Throughput](https://www.slideshare.net/kobac/async-code-reviews-are-killing-your-companys-throughput-248758692)
 
+### Capture metrics
+![Capture metrics](img/metrics.png)
+- `Inspection rate`
+  - Speed with which a review is performed.
+- `Defect rate`
+  - Number of bugs found per hour of review.
+- `Defect density`
+  - Average number of bugs found per line of code.
+
 ## Concrete Practice - Code Avengers 30'
 - Create groups of 3
-- Each attendee takes :
-  - A role card and **keep it secret**
-  - A checklist
-  - A code sample
-- 5’ in solo:
-  - Prepare a code review as a code avenger : role-play based on your role card.
-- Review time :
-  - Each member explains his/her discovery in the code to the two others.
-  - They have to guess who is the code avenger
-    - And keep note how they feel during the review
+### Iteration 1
+#### Preparation
+Each attendee takes :
+- A role card and **keep it secret**
+- A checklist
+- A code snippet
 
-### Role play cards
+#### Solo review (10')
+Prepare a code review as a code avenger: role-play based on your role card.
+
+#### Review time (5') :
+- Each member explains his/her discovery in the code to the two others.
+- The 2 others take notes to record `key moments`
+
+You can record conversations by recording it like this:
+
+| What I thought / Felt                     | What ____________ said                               |
+|-------------------------------------------|------------------------------------------------------|
+| "record everything you have in mind here" | "record everything that seems important to you here" |
+
+- Record which questions have been asked
+  - Identify `genuine` questions
+  - Evaluate `curiosity: genuine questions / total number of questions`
+
+#### Group debriefing (10')
+- Share about your notes
+- Try to spot who is which avenger
+
+<details>
+  <summary markdown='span'>
+  Role play cards (do not reveal)
+  </summary>
+
+![Code avengers](img/code-avengers.png)
+
+- [PDF printable version](files/code-avengers.pdf)
+- [PNG cards](files/code-avengers.zip)
+
+</details>
+
+![Commitstrip code reviews](img/truth-about-code-reviews.jpg)
+
+### Iteration 2 - Give feedback
+
+## Conclusion - Pair Programming and Code Reviews
+> Don't let reviews be an ego match.
+
+- What could you do in the next 10 days that could help you make better code reviews in your team?
+- Pair Programming and Code Review how could it fit in your team / development process?
+
+
+> Being the most senior person on the team does not imply that your code does not need review...
+
+
+
 
 
 ### Resources
 - [Code Review Best Practices by Trisha Gee](https://blog.jetbrains.com/upsource/2018/08/30/code-review-best-practices/)
 - [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/)
-- [Code Review Worflows](https://blog.jetbrains.com/upsource/tag/code-review-workflows/)
+- [Code Review Workflows](https://blog.jetbrains.com/upsource/tag/code-review-workflows/)
 - [Code Review Guidelines by Patrick Smacchia](https://blog.ndepend.com/what-is-code-review-guidelines-best-practices/)
 - [Ebook "What to look for in a code review"](http://jb.gg/book/codereview)
+- [Agile conversations](https://hennyportman.files.wordpress.com/2020/09/qrc-agile-conversations.pdf)
+- [Management 3.0 - Better feedback](https://management30.com/develop-competence/better-feedback/)
 
 [![Code Review Best Practices by Trisha Gee](img/code-review-best-practices.png)](https://youtu.be/3pth05Rgr8U)
