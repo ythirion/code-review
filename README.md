@@ -1,5 +1,5 @@
 # Code Review
-![Avengers code review](img/code-review-avengers.jpg)
+![Avengers code review](img/code-review-avengers.webp)
 
 - [Connection - Goals](1.connection.md)
 - [Concepts - What is `Code Review`](2.concepts.md)
