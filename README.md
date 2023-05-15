@@ -1,4 +1,4 @@
-# Code Review
+# Code Avengers - Be Better At Reviewing Code
 ![Avengers code review](img/code-review-avengers.webp)
 
 - [Connection - Goals](1.connection.md)
