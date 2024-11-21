@@ -7,7 +7,7 @@
 - [Conclusion - Pair Programming and Code Reviews](4.conclusion.md)
 
 ### Resources
-- [Ship / Show / Ask](https://martinfowler.com/articles/ship-show-ask.html]
+- [Ship / Show / Ask](https://martinfowler.com/articles/ship-show-ask.html)
 - [Code Review Best Practices by Trisha Gee](https://blog.jetbrains.com/upsource/2018/08/30/code-review-best-practices/)
 - [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/)
 - [Code Review Workflows](https://blog.jetbrains.com/upsource/tag/code-review-workflows/)
